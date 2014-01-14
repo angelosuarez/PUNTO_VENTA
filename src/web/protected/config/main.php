@@ -5,9 +5,9 @@
 // CWebApplication properties can be configured here.
 return array(
     'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-    'name'=>'S O R I',
+    'name'=>'PUNTO VENTA',
     'language'=>'es',
-    'theme'=>'designa',
+    'theme'=>'metroui',
     // preloading 'log' component
     'preload'=>array('log'),
     // autoloading model and component classes
