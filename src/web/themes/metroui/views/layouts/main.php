@@ -38,26 +38,9 @@
                     
                     <?php if (!Yii::app()->user->isGuest): ?>
                         <span class="element-divider"></span>
-
-                        <?php // echo CHtml::link('<i class="icon-home on-right on-left"></i> Home', array('/site/index'), array('class' => 'element')); ?>
-                    
-                                                                        <!--<div class="element">-->
-                                                                        <?php // echo CHtml::link('<i class="icon-box-add on-right on-left"></i> Tickets', '#', array('class' => 'dropdown-toggle')); ?>
-                                                                        <?php // $this->widget('zii.widgets.CMenu',array(
-                                                //                            'items'=>array(
-                                                //                                    array('label'=>'My tickets', 'url'=>array('/tickets/admin')),
-                                                //                                    array('label'=>'Open ticket', 'url'=>array('/tickets/create')),
-                                                //                            ),
-                                                //                            'htmlOptions' => array(
-                                                //                                'class' => 'dropdown-menu',
-                                                //                                'id' => 'base-submenu',
-                                                //                                'data-role' => 'dropdown'
-                                                //                                ),
-
-                                                //                        )); ?>
-                                                                        <!--</div>-->
-                        <?php // if(Yii::app()->getSession()->get('role') === 1) echo CHtml::link('<i class="icon-user on-right on-left"></i> Usuarios', array('/usuarios/index'), array('class' => 'element')); ?>
+                        <?php echo CHtml::link('<i class="icon-home on-right on-left"></i> Home', array('/site/index'), array('class' => 'element')); ?>
                         <?php echo CHtml::link('<i class="icon-locked on-right on-left"></i> Logout ('.Yii::app()->user->name.')', array('/site/logout'), array('class' => 'element')); ?>
+                                 
                         <span class="element-divider"></span>
                     <?php endif; ?> 
                 </div>

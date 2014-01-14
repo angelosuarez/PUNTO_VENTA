@@ -10,9 +10,9 @@ $this->pageTitle=Yii::app()->name;
   <div id="welcome">
 <h1>Bienvenido a  <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 <!--<div id="chart_div" style="width: 900px; height: 400px;"></div>-->
-<h4>Sistema de Origen</h4>
 
-<h2 align="center" >Haga click en alguna opcion del menu para empezar</h2>
+
+<!--<h2 align="center" >Haga click en alguna opcion del menu para empezar</h2>-->
 </div>
 
 
